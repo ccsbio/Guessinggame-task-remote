@@ -5,17 +5,17 @@ echo "Congratulations! You're stunning!"
 function checking_high_numbers {
 if [[ $response -gt 3 ]] && [[ $response -le 6 ]]
 then
-        echo "You're getting warmer! Try a little bit smaller one"
+        echo "You're getting warmer! Try one a little bit smaller"
 elif [[ $response -ge 7 ]]
 then
-        echo "Oops... Too high to the sky! Try smaller ones"  
+        echo "Oops... Too high as the sky! Try smaller numbers"  
 fi
 }
 
 function checking_small_numbers {
 if [[ $response -lt 3 ]] && [[ $response -ge 0 ]]
 then
-        echo "You're getting warmer! Try a little bit higher one"
+        echo "You're getting warmer! Try one a little bit higher"
 elif [[ $response -lt 0 ]] 
 then
 	echo "Okay... In other worlds maybe that's possible"
